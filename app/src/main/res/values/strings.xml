@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">WalaMoto</string>
+
+    <!-- MainActivity -->
+    <string name="main_tittle">Concesionario WalaMotoZerva</string>
+
+    <!-- ListadoActivity -->
+    <string name="listado_tittle">Lista Motos</string>
+
+    <!-- FichaActivity -->
+    <string name="ficha_tittle">Ficha técnica</string>
+    <string name="cargar_lista_motos">Error. No se pudo cargar el listado de marcas.</string>
+
+    <!-- AgregarActivity -->
+    <string name="agregar_tittle">Agregar Moto</string>
+
+    <!-- EliminarActivity -->
+
+    <!-- PreferenciasActivity -->
+    <string name="filtro_pref"><b>Filtar preferencias</b></string>
+    <string name="titulo_pref">Visualizar motos</string>
+    <string name="summary_pref">Mostrar todas las motos que hay en la base de datos, vendidas o en stock.</string>
+
+    <!-- Botones -->
+    <string name="btn_update">Actualizar datos</string>
+    <string name="btn_insert">Agregar datos</string>
+
+    <!-- Mensajes -->
+    <string name="delete_mensaje">Los datos han sido eliminados.</string>
+    <string name="insert_mensaje">Los datos han sido insertados.</string>
+    <string name="update_mensaje">El estado de la motocicleta ha sido actualizado</string>
+    <string name="error_add_spinner">Imposible cargar el listado de marcas.</string>
+    <string name="mensaje_inicial">La lista de coches está vacía. Cambie las preferencias o inserte
+        nuevos coches.</string>
+
+    <!-- Moto -->
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="km">Km</string>
+    <string name="year">Año</string>
+    <string name="cilindrada">Cilindrada</string>
+    <string name="potencia">Potencia</string>
+    <string name="precio">Precio</string>
+    <string name="vendido">Moto vendida</string>
+
+    <!-- Options Menu List -->
+    <string name="pref_menu">Preferencias</string>
+    <string name="add_menu">Agregar Moto</string>
+    <string name="del_menu">Eliminar Moto</string>
+
+    <!-- Concepts AlertDialogs -->
+    <string name="alertTittleUpdate">Actualizar Moto</string>
+    <string name="alertTittleDelete">Eliminar Moto</string>
+    <string name="alertMessageUpdate">¿Desea guardar los cambios realizados en la base de datos?</string>
+    <string name="alertMessageDelete">¿Desea eliminar los datos seleccionados de la base de datos?</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="nuevaMoto">Agregar Moto</string>
+    <string name="alertMessageAdd">¿Desea agregar otra moto?</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/contenedor_itemMoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/img_itemlist"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tvmarca_itemlist"
+            style="@style/TablaMotos" />
+
+        <TextView
+            android:id="@+id/tvmodelo_itemlist"
+            style="@style/TablaMotos" />
+
+        <TextView
+            android:id="@+id/tvkm_itemlist"
+            style="@style/TablaMotos" />
+
+        <TextView
+            android:id="@+id/tvanio_itemlist"
+            style="@style/TablaMotos" />
+
+        <TextView
+            android:id="@+id/tvprecio_itemlist"
+            style="@style/TablaMotos" />
+    </LinearLayout>
+
+
+</RelativeLayout>

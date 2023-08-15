@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/contenedorCocheEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/marca_delete"
+            style="@style/TablaMotos" />
+
+        <TextView
+            android:id="@+id/modelo_delete"
+            style="@style/TablaMotos" />
+
+        <TextView
+            android:id="@+id/km_delete"
+            style="@style/TablaMotos" />
+
+        <TextView
+            android:id="@+id/year_delete"
+            style="@style/TablaMotos" />
+
+        <ImageButton
+            android:id="@+id/btn_delete_item"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icon_delete" />
+    </LinearLayout>
+
+</RelativeLayout>

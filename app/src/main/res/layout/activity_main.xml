@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/fondo">
+
+
+
+
+    <ImageButton
+        android:id="@+id/btn_logo"
+        android:layout_width="331dp"
+        android:layout_height="381dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:onClick="goListMoto"
+        android:scaleType="fitXY"
+        android:src="@drawable/moto" />
+
+
+
+
+</RelativeLayout>

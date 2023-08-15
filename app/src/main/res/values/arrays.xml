@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="listaMarcas">
+        <item>Seleccione marca</item>
+        <item>BMW</item>
+        <item>YAMAHA</item>
+        <item>HONDA</item>
+        <item>DUCATI</item>
+        <item>APRILIA</item>
+        <item>HARLEY DAVIDSON</item>
+        <item>KAWASAKI</item>
+        <item>RIEJU</item>
+        <item>PIAGGIO</item>
+        <item>SUZUKI</item>
+        <item>TRIUMPH</item>
+    </string-array>
+
+</resources>
